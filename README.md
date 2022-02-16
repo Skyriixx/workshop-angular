@@ -95,9 +95,11 @@ Ce qui change entre Typescript et Javascript, c'est que on peux typer les variab
 
 **Faire en sorte de ne pas donner de valeur à une variable typé**
 
-![image info](./picture/optional.png)
+![image info](./picture/set_optional.png)
   
 ## Réaliser une requête API avec Angular
+
+Pour ce Workshop vous êtes libre de choisir l'API que vous souhaitez, dans ce github je vous donne la syntaxe pour pouvoir réaliser ce que vous souhaitez en Angular
 
 importer le module http dans le app-module.ts
 
@@ -105,3 +107,10 @@ importer le module http dans le app-module.ts
 ![image info](./picture/httpclient2.png) <br/>
 puis le rajouter dans le constructeur de ton composant <br/><br/>
 ![image info](./picture/constructor_http.png) <br/>
+
+réaliser une requête en angular: <br/><br/>
+```this.http.get<any>("url");```
+
+![image info](./picture/requête.png) <br/>
+
+.subscribe permet de récupérer la réponse de la requête.
