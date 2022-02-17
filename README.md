@@ -75,13 +75,13 @@ Ce qui change entre Typescript et Javascript, c'est que on peux typer les variab
 ![image info](./picture/set_optional.png)<br/>
   
 ## Réaliser une requête API avec Angular
-Pour ce Workshop vous êtes libre de choisir l'API que vous souhaitez, dans ce github je vous donne la syntaxe pour pouvoir réaliser ce que vous souhaitez en Angular
-importer le module http dans le app-module.ts
-![image info](./picture/httpclient.png) <br/>
-![image info](./picture/httpclient2.png) <br/>
+Pour ce Workshop vous êtes libre de choisir l'API que vous souhaitez, dans ce github je vous donne la syntaxe pour pouvoir réaliser ce que vous souhaitez en Angular<br/><br/>
+importer le module http dans le app-module.ts<br/><br/>
+![image info](./picture/httpclient.png) <br/><br/>
+![image info](./picture/httpclient2.png) <br/><br/>
 puis le rajouter dans le constructeur de ton composant <br/><br/>
 ![image info](./picture/constructor_http.png) <br/>
-réaliser une requête en angular: <br/><br/>
-```this.http.get<any>("url");```
-![image info](./picture/requête.png) <br/>
+réaliser une requête en angular: <br/>
+```this.http.get<any>("url");```<br/><br/>
+![image info](./picture/requête.png) <br/><br/>
 .subscribe permet de récupérer la réponse de la requête.
