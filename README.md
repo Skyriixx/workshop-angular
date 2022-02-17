@@ -44,5 +44,21 @@ Pour créer un composant il faut taper cette commande: <br/><br/>
 ```ng g c "nom du composant"```<br/>
 
 ## Débuter avec Typescript
-
+Ce qui change entre Typescript et Javascript, c'est que on peux typer les variables en typescript, ce qui apporte plus de sécurité aux sites
+**pour définir un type sur une variable:**
+```public "nom variable": type```
+**pour définir un type en paramétre de la méthode et définir un type de retour dans une méthode:**
+```public "nom méthode"(param: type, param2: type): "type de retour" {}```
+**Créer son propre type**
+![image info](./picture/interface.png)
+**Rendre un paramètre ou un element de son type optionel**
+![image info](./picture/optional.png)
+**Faire en sorte de ne pas donner de valeur à une variable typé**
+![image info](./picture/optional.png)
+  
 ## Réaliser une requête API avec Angular
+importer le module http dans le app-module.ts
+![image info](./picture/httpclient.png) <br/>
+![image info](./picture/httpclient2.png) <br/>
+puis le rajouter dans le constructeur de ton composant <br/><br/>
+![image info](./picture/constructor_http.png) <br/>
